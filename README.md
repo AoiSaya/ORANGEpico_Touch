@@ -50,7 +50,7 @@ PORT100 | T_CLK
 
 ## Licence
 
-[MIT](https://github.com/AoiSaya/ORANGEpico_Touch/LICENSE)
+[MIT](https://github.com/AoiSaya/ORANGEpico_Touch/blob/master/LICENSE)
 
 
 ## Author
