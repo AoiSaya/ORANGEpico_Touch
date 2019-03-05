@@ -1,6 +1,6 @@
 # ORANGEpico_Touch
 
-Touch sensor XPT2046 control sample for ORANGE pico.  
+Control sample of Touch sensor XPT2046 for ORANGE pico.  
 <img src="img/drawing_sample.jpg" width="300">  
 
 ORANGE pico series are small computer of PicoSoft.  
@@ -18,6 +18,7 @@ https://booth.pm/ja/items/1134643
 This pocket computer has a TFT module equipped with a touch panel controller XPT2046.  
 The TFT module is 2.4 inches 240 x 320 dots.  
 Pictures of the same product as this TFT module is shown below.  
+Touch sensor pin is lower right 4 pins.  
 <img src="img/TFT24_01.jpg" width="300"><img src="img/TFT24_02.jpg" width="300">  
 
 
@@ -46,9 +47,11 @@ PORT100 | T_CLK
     drawing_sample.lua  -- Sample of inputting BASIC by serial communication with Lua  
                            Used in connection with FlashAir  
 
+
 ## Licence
 
 [MIT](https://github.com/AoiSaya/ORANGEpico_Touch/LICENSE)
+
 
 ## Author
 
