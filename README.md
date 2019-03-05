@@ -1,24 +1,24 @@
 # ORANGEpico_Touch
 
-Touch sensor XPT2046 control sample for ORANGE pico.
-<img src="img/drawing_sample.jpg" width="400">
+Touch sensor XPT2046 control sample for ORANGE pico.  
+<img src="img/drawing_sample.jpg" width="300">  
 
-ORANGE pico series are small computer of PicoSoft.
-Support language is BASIC.
-Refer: http://www.picosoft.co.jp/orange/
+ORANGE pico series are small computer of PicoSoft.  
+Support language is BASIC.  
+Refer: http://www.picosoft.co.jp/orange/  
 
 
 ## Tested equipment
 
-Tested on "ORANGE pico pocket" purchased here.
-https://booth.pm/ja/items/1134643
+Tested on "ORANGE pico pocket" purchased here.  
+https://booth.pm/ja/items/1134643  
 
-<img src="img/ORANGE_pico_pocket.JPG" width="400">
+<img src="img/ORANGE_pico_pocket.JPG" width="200">  
 
-This pocket computer has a TFT module equipped with a touch panel controller XPT2046.
-The TFT module is 2.4 inches 240 x 320 dots.
-Pictures of the same product as this TFT module is shown below.
-<img src="img/TFT24_01.JPG" width="400"><img src="img/TFT24_02.JPG" width="400">
+This pocket computer has a TFT module equipped with a touch panel controller XPT2046.  
+The TFT module is 2.4 inches 240 x 320 dots.  
+Pictures of the same product as this TFT module is shown below.  
+<img src="img/TFT24_01.jpg" width="300"><img src="img/TFT24_02.jpg" width="300">  
 
 
 ## ORANGE pico GPIO to sensor pins of TFT module connections
@@ -34,9 +34,17 @@ PORT100 | T_CLK
 
 ## Sample program
 
->drawing_sample.bas  `-- BASIC program sample`  
->drawing_sample.lua  `-- Sample of inputting BASIC by serial communication with Lua`
->                    `   Used in connection with FlashAir`
+### Support Functions
+
+- Screen clear
+- Pen color selection
+- Pen thickness selection
+
+### Program list
+
+    drawing_sample.bas  -- BASIC program sample  
+    drawing_sample.lua  -- Sample of inputting BASIC by serial communication with Lua  
+                           Used in connection with FlashAir  
 
 ## Licence
 
