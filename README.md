@@ -18,7 +18,7 @@ https://booth.pm/ja/items/1134643
 This pocket computer has a TFT module equipped with a touch panel controller XPT2046.  
 The TFT module is 2.4 inches 240 x 320 dots.  
 Pictures of the same product as this TFT module is shown below.  
-Touch sensor pin is lower right 4 pins.  
+Touch sensor pin is lower right 5 pins.  
 <img src="img/TFT24_01.jpg" width="300"><img src="img/TFT24_02.jpg" width="300">  
 
 
